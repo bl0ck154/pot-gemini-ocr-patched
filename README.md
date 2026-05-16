@@ -2,8 +2,6 @@
 
 Patched Pot App text recognition plugin for Google Gemini OCR.
 
-Gist source: https://gist.github.com/Bl0ck154/9281ee889022238e9647efe0ba758ba2
-
 ## Install
 
 If you already have the packaged `.potext` file, install it directly in Pot:
@@ -29,11 +27,9 @@ If Pot refuses to update the existing plugin because the plugin id is the same:
 4. Install plugin.gemini-ocr-updated.potext.
 ```
 
-## Build `.potext` from this gist
+## Build `.potext` from source
 
-GitHub Gist does not host binary release assets, so the gist contains source files only.
-
-Download these files from the gist:
+Download or clone this repository with these files:
 
 ```text
 info.json
